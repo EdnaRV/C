@@ -1,0 +1,48 @@
+Programa 3 (en C)
+
+Given two strings s and t (arreglos de caracteres) , write a function to determine if t is an anagram of s.
+
+Example 1:
+
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Example 2:
+
+Input: s = "rat", t = "car"
+Output: false
+
+Note:
+You may assume the string contains only lowercase alphabets.
+
+------
+0. que sea dinámico
+
+/ 1. que sean del mismo tamaño
+
+2. obtiene ascii  
+
+3. compara ascii -opc- los ordena - con el segundo arreglo
+
+amor 
+mora
+""
+cal
+cel
+
+--------------
+	
+2. id compara caracter con su misma cadena y si lo encuentra, aumenta num para ese caracter
+	una seccion para comparar una letra que se aumenta y si alcanza tam arreglo entonces pertenece
+
+	o esa letra buscarla con un for y si coincide; hacer una pila que lo saque(pero tambien lo va a buscar que coincida con la pila -- mas bien saca) y PUM! si llega a 0 si funciona
+	
+3. avanza a siguiente caracter
+
+4. compara y si encuentra los mismos caracteres y sus tam coinciden, ya está
+
+
+cal
+calca
+
+
