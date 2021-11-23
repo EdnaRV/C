@@ -1,0 +1,26 @@
+i=0 (increment) write numbers
+d=0(decrement) write spaces || n-i write spaces
+
+if 1rst line: write "i" 
+i++
+n/
+d--
+_____
+second line and so on
+print d util it reach top
+and then 
+print i until it reach top
+print i-1= iaux decreasing until reach 0
+
+_____
+when i == n
+
+make the same as above 
+
+rewrite code || at the begining of the for ask if it reach "n"
+
+-----
+for( ) lines
+	for() i increasing
+	for() i decreasing - in the same line and /n
+
