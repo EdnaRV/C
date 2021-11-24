@@ -3,4 +3,4 @@ project(CPrograms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CPrograms main.cpp d4clases.cpp)
+add_executable(CPrograms main.cpp d4clases.cpp cmake-build-debug/presentForLena55.cpp cmake-build-debug/CMakeFiles/word7.cpp cmake-build-debug/CMakeFiles/word7.h)
